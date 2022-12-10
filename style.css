@@ -1,0 +1,59 @@
+@import url(file:///C:/Users/Saruul/Documents/%D0%9C%D1%8D%D0%B4%D1%8D%D1%8D%D0%BB%D1%8D%D0%BB%20%D0%B7%D2%AF%D0%B9/%D0%91%D0%B8%D0%B5%20%D0%B4%D0%B0%D0%B0%D0%BB%D1%82.html);
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body
+{
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #001e71, #0d338a, #194aa2, #2460bb, #3078d4);
+}
+header
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo
+{
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-style: italic;
+}
+header ul
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li
+{
+    list-style: none;
+    margin-left: 20px;
+}
+header ul li a
+{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #fff;
+    border-radius: 22px;
+}
+header ul li a:hover ,
+header ul li a.active
+
+{
+    background: #fff;
+    color: #001e71;
+}
